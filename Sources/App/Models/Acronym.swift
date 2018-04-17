@@ -1,7 +1,7 @@
 import Vapor
-import FluentSQLite
+import FluentPostgreSQL
 
-final class Acronym: SQLiteModel {
+final class Acronym: PostgreSQLModel {
 
     var id: Int?
     var short: String
